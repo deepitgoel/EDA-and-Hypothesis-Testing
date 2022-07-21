@@ -23,31 +23,31 @@ We will be using different hypothesis tests to find the significance of differen
 
 - Working day: 
     - The mean count of rental bikes for working and non working days is almost same with slightly higer for working day
- -- The max and median count for working day is greater as compared to the non working day
+    - The max and median count for working day is greater as compared to the non working day
 
 - Holiday: 
- -- The mean and median count of rental bikes for holidya and non-holidays is almost same with slightly higher for non holiday.
+    - The mean and median count of rental bikes for holidya and non-holidays is almost same with slightly higher for non holiday.
 
 - Season:
- -- The mean and median of count of rentals is highest in season 3 - fall and lowest in season 1 - spring.
+    - The mean and median of count of rentals is highest in season 3 - fall and lowest in season 1 - spring.
 
 - Weather :
- -- the mean and median of count of rentals is highest during weather category 1 and least in category 3
+    - the mean and median of count of rentals is highest during weather category 1 and least in category 3
 
 - Temperature and feeling temperature:
- -- The highest count of rentals is between 31-36 degree celcius while the highest frequency (density) is between 8-17 degrees and count of rentals around 100.
- -- we see as temp increases there is an increase in the count of rentals
+    - The highest count of rentals is between 31-36 degree celcius while the highest frequency (density) is between 8-17 degrees and count of rentals around 100.
+    - we see as temp increases there is an increase in the count of rentals
 
- -- The highest count of rentals is between 36-40 degree Celsius feeling temperature while the highest frequency (density) is between 12-16 degrees and count of rentals around 100.
- -- We see as feeling temp increases there is an increase in the count of rentals.
+    - The highest count of rentals is between 36-40 degree Celsius feeling temperature while the highest frequency (density) is between 12-16 degrees and count of rentals around 100.
+    - We see as feeling temp increases there is an increase in the count of rentals.
 
 - Humidity:
- -- The count of rentals is very low for humidity less than 18 but is maximum at 20.
- -- After humidity level 20 the count of rentals decreases as humidity increases
+    - The count of rentals is very low for humidity less than 18 but is maximum at 20.
+    - After humidity level 20 the count of rentals decreases as humidity increases
 
 - Windspeed :
- -- the count is maximum between windspeed of 12-30 approx.
- -- above windspeeds of 35 we can observe a decrease in the count of rentals
+    - the count is maximum between windspeed of 12-30 approx.
+    - above windspeeds of 35 we can observe a decrease in the count of rentals
 
 ## Results from significance testing
 
