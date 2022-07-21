@@ -22,7 +22,7 @@ We will be using different hypothesis tests to find the significance of differen
 ## Relation between Features and Count:
 
 - Working day: 
- -- The mean count of rental bikes for working and non working days is almost same with slightly higer for working day
+-     The mean count of rental bikes for working and non working days is almost same with slightly higer for working day
  -- The max and median count for working day is greater as compared to the non working day
 
 - Holiday: 
