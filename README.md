@@ -51,39 +51,39 @@ We will be using different hypothesis tests to find the significance of differen
 
 ## Results from significance testing
 ### Workday with Count of rentals
-    - **Null Hypothesis Ho** : The means of count of non working day and working day are equal.
-    - **Alternate Hypothesis Ha**: The means of count of non working day and working day are not equal.
-    - **Significance level** = 5% = 0.05
-    - To test our null hypothesis we will use the **2-sample t test** as population standard deviations are not present.
-    - Results:
-       - P-value= 0.22607559007082925
-       - P-value is greater than the significance level ,therefore we fail to reject the null hypothesis. 
-       - **we conclude that the means of count of rentals on working and non-working days are equal and thus working day feature doesnot affect the count**
+- **Null Hypothesis Ho** : The means of count of non working day and working day are equal.
+- **Alternate Hypothesis Ha**: The means of count of non working day and working day are not equal.
+- **Significance level** = 5% = 0.05
+- To test our null hypothesis we will use the **2-sample t test** as population standard deviations are not present.
+- Results:
+   - P-value= 0.22607559007082925
+   - P-value is greater than the significance level ,therefore we fail to reject the null hypothesis. 
+   - **we conclude that the means of count of rentals on working and non-working days are equal and thus working day feature doesnot affect the count**
        
 ### Weather with Count of rentals:
-    - **Null Hypothesis Ho** : There is no difference between means of count of rentals of different weather groups.
-    - **Alternate Hypothesis Ha**: There is some difference between means of count of rentals of different weather groups
-    - **Significance level** = 5% = 0.05
-    - To test our null hypothesis we will use the **ANOVA** as we need to compare means of multiple groups.
-    - Results:
-        - We can observe that none of the count of rentals for a weather group is normally distributed. Also, the variance is not same.
-        - Both log-transform and boxcox transform failed to transform count of rentals for each weather group to Gaussian.
-        - Since both requirements are not fulfilled we cannont use Anova. Therefore we cannot test our null hypothesis.
-    - Therefore we will use the **non parametric equivalent** of Anova , that is, **Kruskal-Wallis Test** to test the null hypothesis.
-    - Results :
-        - P -value = 1.572144018491876e-147 ~ 0
-        - P-value is very less than the significance level, therefore we reject the null hypothesis.
-        - **We conclude that There is some difference between means of count of rentals of different weather groups.**
+- **Null Hypothesis Ho** : There is no difference between means of count of rentals of different weather groups.
+- **Alternate Hypothesis Ha**: There is some difference between means of count of rentals of different weather groups
+- **Significance level** = 5% = 0.05
+- To test our null hypothesis we will use the **ANOVA** as we need to compare means of multiple groups.
+- Results:
+    - We can observe that none of the count of rentals for a weather group is normally distributed. Also, the variance is not same.
+    - Both log-transform and boxcox transform failed to transform count of rentals for each weather group to Gaussian.
+    - Since both requirements are not fulfilled we cannont use Anova. Therefore we cannot test our null hypothesis.
+- Therefore we will use the **non parametric equivalent** of Anova , that is, **Kruskal-Wallis Test** to test the null hypothesis.
+- Results :
+    - P -value = 1.572144018491876e-147 ~ 0
+    - P-value is very less than the significance level, therefore we reject the null hypothesis.
+    - **We conclude that There is some difference between means of count of rentals of different weather groups.**
         
 ### Dependence of Weather on Season
-    - **Null Hypothesis Ho** : Season has no effect on Weather
-    - **Alternate Hypothesis Ha**: Season has some effect on Weather
-    - **Significance level** = 5% = 0.05
-    - To check the dependence we can use **chi-squared test** since both feature are categorical
-    - Results:
-        - P-value= 2.8260014509929403e-08 = 2.8 * 10^(-8)
-        - P-value is much less than the significance level, therefore we reject the null hypothesis. 
-        - We conclude that Weather is dependent on Season.
+- **Null Hypothesis Ho** : Season has no effect on Weather
+- **Alternate Hypothesis Ha**: Season has some effect on Weather
+- **Significance level** = 5% = 0.05
+- To check the dependence we can use **chi-squared test** since both feature are categorical
+- Results:
+    - P-value= 2.8260014509929403e-08 = 2.8 * 10^(-8)
+    - P-value is much less than the significance level, therefore we reject the null hypothesis. 
+    - We conclude that Weather is dependent on Season.
 
 
 
