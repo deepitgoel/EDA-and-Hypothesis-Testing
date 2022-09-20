@@ -50,7 +50,7 @@ We will be using different hypothesis tests to find the significance of differen
     - above windspeeds of 35 we can observe a decrease in the count of rentals
 
 ## Results from significance testing
-- Workday with Count of rentals
+### Workday with Count of rentals
     - **Null Hypothesis Ho** : The means of count of non working day and working day are equal.
     - **Alternate Hypothesis Ha**: The means of count of non working day and working day are not equal.
     - **Significance level** = 5% = 0.05
@@ -60,7 +60,7 @@ We will be using different hypothesis tests to find the significance of differen
        - P-value is greater than the significance level ,therefore we fail to reject the null hypothesis. 
        - **we conclude that the means of count of rentals on working and non-working days are equal and thus working day feature doesnot affect the count**
        
-- Weather with Count of rentals:
+### Weather with Count of rentals:
     - **Null Hypothesis Ho** : There is no difference between means of count of rentals of different weather groups.
     - **Alternate Hypothesis Ha**: There is some difference between means of count of rentals of different weather groups
     - **Significance level** = 5% = 0.05
@@ -75,7 +75,7 @@ We will be using different hypothesis tests to find the significance of differen
         - P-value is very less than the significance level, therefore we reject the null hypothesis.
         - **We conclude that There is some difference between means of count of rentals of different weather groups.**
         
-- Dependence of Weather on Season
+### Dependence of Weather on Season
     - **Null Hypothesis Ho** : Season has no effect on Weather
     - **Alternate Hypothesis Ha**: Season has some effect on Weather
     - **Significance level** = 5% = 0.05
